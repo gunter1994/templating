@@ -10,6 +10,10 @@ my files involved in templating is the ipnb "final" which I used for all my init
 
 Most of this is unfinished as I quickly realised this method was getting no where near the results I wanted, I did get a webcam test working, but it never recognized any phones properly and just randomely guessed at the background.
 
+My two main methods were "simple.py" and "webcam-test.py" simple is the basic algorithm, and works on a single image. Where webcam was set up to run on webcam video feed.
+
+I was planning on adding a weighting algorithm to this to fix some bias problems I was having but setting up the training data quickly became too combersome, so I decided to change methods as I dumbed down my process.
+
 # HOG and SVM
 
 The idea behind my HOG SVM classifier was to classify if a phone was the iphone brand or the samsung brand. I have several pictures of both from the back (from the front had too many issues due to the screen). As well as several random pictures I downloaded online that are simply "not phones". 
