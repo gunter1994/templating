@@ -27,3 +27,8 @@ I did not have much success with this, although there weren't really any false p
 The second test is im-test.py which simply lets you run the algorithm on a given images using the pre trained model I've included (which you can overwrite if you want.
 
 Some of my results can be seen below.
+
+![Iphone example](../master/examples/Figure_1.png)
+![Samsung example](../master/examples/Figure_2.png)
+Here is an example from when I took a picture using my webcam program (excuse my good looks)
+![Webcam Example](../master/examples/Figure_3.png)
